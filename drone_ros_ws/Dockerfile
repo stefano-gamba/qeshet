@@ -30,4 +30,5 @@ RUN echo "if [ -f /ros2_ws/install/setup.bash ]; then source /ros2_ws/install/se
 
 # Il comando di avvio fa partire in background lo schermo virtuale, 
 # il window manager, il server VNC e il bridge web, mantenendo poi bash aperto.
-CMD ["sh", "-c", "Xvfb :0 -screen 0 1920x1080x24 & fluxbox & x11vnc -display :0 -forever -nopw -bg -xkb & websockify --web=/usr/share/novnc/ 8080 localhost:5900 & bash"]
+# Elimina eventuali file di lock rimasti da spegnimenti anomali, poi avvia lo stack
+CMD ["sh", "-c", "rm -rf /tmp/.X* && Xvfb :0 -screen 0 1920x1080x24 & fluxbox & x11vnc -display :0 -forever -nopw -bg -xkb & websockify --web=/usr/share/novnc/ 8080 localhost:5900 & bash"]
