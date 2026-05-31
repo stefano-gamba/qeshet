@@ -1,4 +1,4 @@
-# qeshet
+# qeshet 🌈
 
 ## 🚀 Setup dell'Ambiente di Sviluppo (ROS 2 & Simulazione)
 
