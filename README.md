@@ -26,10 +26,10 @@ Apri il tuo browser (Chrome, Firefox, Safari) e vai all'indirizzo:
 
 👉 http://localhost:8080/vnc.html
 
-    Clicca su Connect (non è richiesta alcuna password).
+Clicca su Connect (non è richiesta alcuna password).
 
-    Fai clic destro in un punto qualsiasi dello schermo grigio per aprire il menu del window manager (Fluxbox).
+Fai clic destro in un punto qualsiasi dello schermo grigio per aprire il menu del window manager (Fluxbox).
 
-    Seleziona Applications > Shells > Bash per aprire un terminale grafico.
+Seleziona Applications > Shells > Bash per aprire un terminale grafico.
 
-    Da qui puoi lanciare i tool visivi come rviz2 o ign gazebo.
+Da qui puoi lanciare i tool visivi come rviz2 o ign gazebo.
