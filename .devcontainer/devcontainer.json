@@ -1,9 +1,8 @@
 {
   "name": "ROS 2 Drone Workspace",
   "dockerComposeFile": "../docker-compose.yml",
-  "service": "drone_ros_ws", // Usa il nome esatto del servizio ROS 2 definito nel tuo docker-compose.yml
-  "workspaceFolder": "/percorso/interno/al/container/drone_ros_ws", // Es: /workspace/drone_ros_ws
-  
+  "service": "drone_ros", 
+  "workspaceFolder": "/ros2_ws", 
   "customizations": {
     "vscode": {
       "extensions": [
